@@ -6,8 +6,10 @@ namespace AgricFameAPICosmosDB.Models
     {
 
         //Azure Cosmos uses JSON to store Data
+
+        //Id must be string
         [JsonProperty(PropertyName = "id")]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [JsonProperty(PropertyName = "cropName")]
         public string CropName { get; set; }
