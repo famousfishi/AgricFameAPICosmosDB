@@ -45,6 +45,8 @@ namespace AgricFameAPICosmosDB
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AgricFameAPICosmosDB v1"));
             }
 
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AgricFameAPICosmosDB v1"));
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

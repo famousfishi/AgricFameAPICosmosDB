@@ -2,7 +2,7 @@
   "dependencies": {
     "cosmosdb1": {
       "type": "cosmosdb",
-      "connectionId": "AzureCosmosDb:Key"
+      "connectionId": "AzureCosmosDb:PrimaryConnectionString"
     }
   }
 }
