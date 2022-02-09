@@ -57,7 +57,7 @@ namespace AgricFameAPICosmosDB
             });
         }
 
-        public static async Task<FarmCosmosDbService> AddAzureCosmosDbModule(IConfiguration configuration)
+        private static async Task<FarmCosmosDbService> AddAzureCosmosDbModule(IConfiguration configuration)
         {
             string databaseName = configuration.GetValue<string>("DatabaseName");
             string containerName = configuration.GetValue<string>("ContainerName");
